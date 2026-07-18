@@ -1,0 +1,6 @@
+{
+  "commands.selective_creative_inventory.enable.self": "Creative inventory access enabled.",
+  "commands.selective_creative_inventory.enable.player": "Enabled creative inventory access for %s.",
+  "commands.selective_creative_inventory.disable.self": "Creative inventory access disabled.",
+  "commands.selective_creative_inventory.disable.player": "Disabled creative inventory access for %s."
+}

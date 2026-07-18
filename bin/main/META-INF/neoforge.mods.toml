@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="selective_creative_inventory"
+version="1.0.0"
+displayName="Selective Creative Inventory"
+authors="MC-PRIVATE"
+logoFile="icon.png"
+displayURL="https://modrinth.com/project/selective-creative-inventory"
+description='''
+Grants selected players access to the creative inventory while their real game mode—and survival mechanics—remain unchanged.
+'''
+
+[[mixins]]
+config="selective_creative_inventory.mixins.json"
+
+[[dependencies.selective_creative_inventory]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.197,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.selective_creative_inventory]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
